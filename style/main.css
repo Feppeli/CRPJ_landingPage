@@ -1,15 +1,17 @@
 main{
-    height: 100vh;
     background: url('../assets/Main_Background_Cinza.png');
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position-y: bottom;
+
+
     
 }
 #main{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
 
     height: 80vh;
 }
@@ -69,6 +71,10 @@ main{
     font-size: 24px;
 
     padding: 10px 18px;
+}
+
+.wave{
+    float: bottom;
 }
 
 @media(max-width:1000px){

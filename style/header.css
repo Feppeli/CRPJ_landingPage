@@ -1,4 +1,7 @@
-
+main #itens{
+    display: flex;
+    justify-content: space-between;
+}
 #txtHeader{
     display: flex;
     justify-content: space-between;
