@@ -66,8 +66,8 @@ main{
 #mainButton{
     margin-top: 50px;
     text-decoration: none;
-    color: #fff;
-    background: var(--cor-cinza);
+    color: var(--cor-cinza);
+    background: #fff;
     font-weight: bold;
     font-size: 24px;
 
@@ -80,8 +80,8 @@ main{
 }
 #mainButton:hover{
     transition: 0.8s;
-    background: #fff;
-    color: var(--cor-cinza);
+    background: var(--cor-cinza);
+    color: #fff;
 }
 
 .wave{

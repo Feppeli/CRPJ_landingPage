@@ -1,0 +1,34 @@
+footer{
+    background: var(--cor-cinza);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    text-align: center;
+
+    height: 10vh;
+}
+
+footer div{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #fff;
+    text-align: center;
+}
+footer p{
+    margin: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#footerimg img{
+    background: var(--cor-cinza);
+    height: 100px;
+}
