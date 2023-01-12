@@ -66,11 +66,16 @@ main{
 #mainButton{
     text-decoration: none;
     color: #fff;
-    background: var(--cor-amarelo);
+    background: var(--cor-vinho);
     font-weight: bold;
     font-size: 24px;
 
     padding: 10px 18px;
+    border-radius: 5px;
+}
+#mainButton:hover{
+    transition: 0.8s;
+    background: var(--cor-amarelo);
 }
 
 .wave{
