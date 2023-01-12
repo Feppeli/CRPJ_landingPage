@@ -64,18 +64,24 @@ main{
 
 
 #mainButton{
+    margin-top: 50px;
     text-decoration: none;
     color: #fff;
-    background: var(--cor-vinho);
+    background: var(--cor-cinza);
     font-weight: bold;
     font-size: 24px;
 
     padding: 10px 18px;
-    border-radius: 5px;
+    border-radius: 50px;
+
+    -webkit-box-shadow: 24px 20px 35px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 24px 20px 35px 0px rgba(0,0,0,0.75);
+    box-shadow: 24px 20px 35px 0px rgba(0,0,0,0.75);
 }
 #mainButton:hover{
     transition: 0.8s;
-    background: var(--cor-amarelo);
+    background: #fff;
+    color: var(--cor-cinza);
 }
 
 .wave{

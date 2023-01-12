@@ -1,12 +1,12 @@
 #city{
     text-align: center;
-    margin-top: 90px;
 
     background-image: url("../assets/textura_papel.jpeg");
 
 }
 #city h1{
- margin-bottom: 30px;
+    margin-top: 90px;
+    margin-bottom: 30px;
 }
 
 #cityBox{

@@ -1,0 +1,20 @@
+#diferenciais{
+    background: var(--cor-cinza);
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    align-items: center;
+}
+
+#diferenciais img{
+    height: 250px;
+}
+
+#boxD{
+    display: flex;
+    flex-direction: row;
+}
