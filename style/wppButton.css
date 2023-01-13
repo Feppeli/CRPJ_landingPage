@@ -1,0 +1,19 @@
+#wppButton{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#wppButton a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #34af23;
+
+    padding: 5px 12px;
+    border-radius: 50px;
+
+    -webkit-box-shadow: 24px 20px 35px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 24px 20px 35px 0px rgba(0,0,0,0.75);
+    box-shadow: 24px 20px 35px 0px rgba(0,0,0,0.75);
+}

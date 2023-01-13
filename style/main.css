@@ -11,85 +11,52 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
     height: 80vh;
 }
-#itens{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+#mainCall h1, p{
+    color:  #fff;
 }
 
-#mainbox{
-    /* Glasformism */
-
-    background: rgba(#fff, 0.5);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 17px );
-    -webkit-backdrop-filter: blur( 17px );
-    border-radius: 10px;
-
-    /* Shadow */
-
-    -webkit-box-shadow: 7px 9px 8px 5px rgba(0,0,0,0.78);
-    -moz-box-shadow: 7px 9px 8px 5px rgba(0,0,0,0.78);
-    box-shadow: 7px 9px 8px 5px rgba(0,0,0,0.78);
-
+#mainCall p{
+    margin-bottom: 60px;
+    font-size: 16px;
 }
-
-#maintxt{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-#maintxt h1{
+#mainCall h1{
     font-size: 80px;
+    margin: 0;
+}
+
+#mainCall a{
     color: #fff;
-}
-#maintxt h5{
-    color: #fff;
-    font-weight: 100;
-}
-
-#mainimg img{
-    margin: 15px;
-    height: 270px;
-    border-radius: 10px;
-}
-
-
-#mainButton{
-    margin-top: 50px;
     text-decoration: none;
+    border: 1px solid #fff;
+    padding: 16px 38px;
+    border-radius: 50px;
+}
+#mainCall a:hover{
     color: var(--cor-cinza);
     background: #fff;
-    font-weight: bold;
-    font-size: 24px;
+    border: none;
+    border-radius: 5px;
 
-    padding: 10px 18px;
-    border-radius: 50px;
+    transition: .6s;
 
     -webkit-box-shadow: 24px 20px 35px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 24px 20px 35px 0px rgba(0,0,0,0.75);
     box-shadow: 24px 20px 35px 0px rgba(0,0,0,0.75);
 }
-#mainButton:hover{
-    transition: 0.8s;
-    background: var(--cor-cinza);
-    color: #fff;
+
+
+#buttonBox{
+    margin-top: 15px;
 }
+
+
+
+
 
 .wave{
     float: bottom;
 }
 
-@media(max-width:1000px){
-    #mainimg{
-        display: none;
-    }
-}
