@@ -23,3 +23,15 @@ nav #brand{
 #links a:hover{
     color: rgba(255, 255, 255, 0.43);
 }
+
+@media(max-width: 900px){
+    #links a{
+        margin: 2px;
+    }
+}
+
+@media(max-width: 700px){
+    #links{
+        display: none;
+    }
+}

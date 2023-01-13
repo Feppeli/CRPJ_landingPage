@@ -33,6 +33,10 @@ main{
     border: 1px solid #fff;
     padding: 16px 38px;
     border-radius: 50px;
+
+        -webkit-box-shadow: 24px 20px 35px 0px rgba(0, 0, 0, 0.842);
+    -moz-box-shadow: 24px 20px 35px 0px rgba(0, 0, 0, 0.874);
+    box-shadow: 24px 20px 35px 0px rgba(0, 0, 0, 0.848);
 }
 #mainCall a:hover{
     color: var(--cor-cinza);
@@ -42,9 +46,7 @@ main{
 
     transition: .6s;
 
-    -webkit-box-shadow: 24px 20px 35px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 24px 20px 35px 0px rgba(0,0,0,0.75);
-    box-shadow: 24px 20px 35px 0px rgba(0,0,0,0.75);
+
 }
 
 
@@ -60,3 +62,11 @@ main{
     float: bottom;
 }
 
+@media(max-width: 700px){
+    #mainCall h1{
+        font-size: 50px;
+    }
+    #mainCall p{
+        font-size: 12px;
+    }
+}
