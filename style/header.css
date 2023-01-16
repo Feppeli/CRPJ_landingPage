@@ -35,3 +35,29 @@ nav #brand{
         display: none;
     }
 }
+
+
+/* Button Menu */
+
+
+.buttonNav a{
+    color: #fff;
+}
+
+.buttonNav a:hover{
+    color:var(--cor-cinza);
+    transition: 0.8s;
+
+}
+
+@media(min-width: 1000px){
+    .buttonNav{
+        display: none;
+    }
+}
+
+@media(max-width: 1000px){
+    #links{
+        display: none;
+    }
+}

@@ -1,4 +1,4 @@
-window.sr = ScrollReveal()
+window.sr = ScrollReveal({reset: false})
 
 ScrollReveal().reveal('nav', {
     delay: 200

@@ -6,29 +6,72 @@ footer{
     justify-content: space-around;
 
     text-align: center;
-
-    height: 10vh;
 }
 
-footer div{
-    margin: 10px;
+.footerBox{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
+    padding: 75px;
+
+}
+
+.footerBox div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+    justify-content: center;
+}
+
+.footerBox .redesSociais{
+    display: flex;
+    flex-direction: row;
     color: #fff;
-    text-align: center;
-}
-footer p{
-    margin: 0;
+
+    justify-content: space-evenly;
+
+    margin-top: 15px;
 }
 
-footer a{
+.footerBrand img{
+    width: 100px;
+}
+
+.footerBox .footerNav a{
+    color: #fff;
     text-decoration: none;
+}
+
+.footerBox .footerNav a:hover{
+    color: var(--cor-amarelo);
+
+}
+
+.footerContact{
     color: #fff;
 }
 
-#footerimg img{
-    background: var(--cor-cinza);
-    height: 100px;
+.footerContactBox p{
+    margin-bottom: 0;
+}
+.footerContactBox i{
+    margin: 3px;
+}
+.footerContactBox div{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+    text-align: start;
+    
+
+
+}
+
+@media(max-width:900px){
+    .footerBox{
+        flex-direction: column;
+    }
 }
