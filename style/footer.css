@@ -33,6 +33,10 @@ footer{
 
     margin-top: 15px;
 }
+.footerBox .redesSociais i{
+    margin-top: 10px;
+    color: #fff;
+}
 
 .footerBrand img{
     width: 100px;
@@ -73,5 +77,11 @@ footer{
 @media(max-width:900px){
     .footerBox{
         flex-direction: column;
+        padding: 0px 20px;
+        height: 90vh;
     }
+    .footerBrand{
+        align-items: center;
+    }
+    
 }

@@ -53,8 +53,11 @@
     color: var(--cor-vinho);
     background: #fff;
     text-decoration: none;
+    padding: 9px 17px;
 
     border: 1px solid var(--cor-vinho);
+
+    transition: .5s;
 }
 
 @media(max-width:1000px){
@@ -64,5 +67,9 @@
 
     .rooftopBox img{
         width: 100%;
+    }
+
+    .rooftopBox a{
+        text-align: center;
     }
 }
