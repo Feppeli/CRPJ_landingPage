@@ -83,5 +83,11 @@ footer{
     .footerBrand{
         align-items: center;
     }
+    .footerBox a{
+        font-size: 24px;
+    }
+    .footerBox p{
+        font-size: 16px;
+    }
     
 }
